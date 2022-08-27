@@ -2,29 +2,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Roboto:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab:wght@700&display=swap') ;
 
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-.menu{
+.menu {
     display: flex;
     justify-content: space-around;
     background-color: #F5F5F6;
     height: 50px;
 }
-img{
+img {
     margin-top: 15px;
     margin-right: 70px;
     height: 23px;
     transition: 1s;  
 }
-.ulMenu{
+.ulMenu {
     margin-top: 17px;
     display: flex;
     list-style-type: none; 
 }
-.liMenu{
+.liMenu {
     background-color: #F5F5F6;
     border: none;
     color: #959BA4;
@@ -35,7 +35,7 @@ img{
     font-family: 'Roboto', sans-serif;   
     transition: 0s;
 }
-.exit{
+.exit {
     background: #FFFFFF;
     border-radius: 4px;
     margin-left: 109px;
@@ -48,12 +48,12 @@ img{
     height: 33px;
     border: none;
 }
-.mainContent{
+.mainContent {
     display: flex;
     align-items: center;
     flex-direction: column;
 }
-.pKonvet{
+.pKonvet {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -62,13 +62,13 @@ img{
     color: #000000;
     margin-top: 56px;
 }
-.leftANDright{
+.leftANDright {
     display: flex;
     justify-content: space-between;
     width: 590px;
     margin-top: 43px;
 }
-.currency{
+.currency {
     border: 1px solid #E5E5E5;
     width: 65px;
     height: 28px;
@@ -80,19 +80,17 @@ img{
     color: #C6C6C6;
     padding: 5px;
 }
-.ulCurrency{
+.ulCurrency {
     list-style-type: none;
     display: flex;   
 }
-.pDiv{
-    width: 587px;
-}
-.psk{
+.pDiv { width: 587px; }
+.psk {
     color: #9F9F9F;
     padding-top: 5px;
     padding-bottom: 5px;
 }
-input{
+input {
     margin-top: 19px;
     width: 259px;
     height: 102px;
@@ -100,23 +98,16 @@ input{
     box-sizing: border-box;
     border-radius: 3px;
 }
-.RUBleft, .USDright{
-    background-color: #833AE0;
-}
-input{
+.RUBleft, .USDright { background-color: #833AE0; }
+input {
     padding: 14px;
     font-size: 36px;
     line-height: 42px;
     font-weight: 700;
     font-family: 'Roboto', sans-serif;
 }
-.exit:hover {
-    background-color: #000000;
-    color: white;
-}
-img:hover {
-    transform: scale(1.4); 
-}
+.exit:hover { background-color: #000000; color: white; }
+img:hover { transform: scale(1.4); }
 .leftInputDiv, .rightInputDiv{
     color: #C6C6C6;
     font-family: 'Roboto', sans-serif;
@@ -128,73 +119,31 @@ img:hover {
     bottom: 5px;
     left: 14px;
 }
-.left, .right{
-    position: relative;
-}
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-    margin: 0; 
-}
-.currency:hover{
-    border: 3px solid #833AE0;
-}
-.liMenu:hover{
-    color: black;
-    transform: scale(1.1); 
-}
+.left, .right { position: relative; }
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0;  }
+.currency:hover { border: 3px solid #833AE0; }
+.liMenu:hover { color: black; transform: scale(1.1); }
+
 @media screen and (min-width: 630px) and (max-width: 930px) {
-.liMenu {
-    margin-left: 10px; 
-}
-.menu{
-    justify-content: center;    
-}
-img{
-    margin-right: 5px;
-}
-.exit{
-    margin-left: 5px;
-}}
+.liMenu { margin-left: 10px; }
+.menu { justify-content: center; }
+img { margin-right: 5px; }
+.exit { margin-left: 5px; }}
 
 @media screen and (min-width:480px) and (max-width: 630px) {
-    .leftANDright {
-        width: 630px;
-       
-    }
-    .leftANDright{
-        width: 100%;
-    }
-    .pDiv{
-        width: 100%;   
-        text-align: center;
-    }
-    .pDiv{
-        text-align: center;
-    }
-    .liMenu{
-        margin-left: 5px;
-        font-size: 7px;
-    }
-    .menu{
-        width: 100%;
-        justify-content: center;
-    }
-    img{
-        width: 50px;
-        margin-right: 5px;
-    }
-    
+    .leftANDright { width: 630px; }
+    .leftANDright { width: 100%; }
+    .pDiv { width: 100%; text-align: center; }
+    .pDiv { text-align: center; }
+    .liMenu {margin-left: 5px; font-size: 7px; }
+    .menu { width: 100%; justify-content: center; }
+    img { width: 50px; margin-right: 5px; }
 }
+
 @media screen and (min-width:0px) and (max-width: 630px) {
-    .menu{
-        display: none;
-    }
-    .pDiv{
-        width: 100%;   
-        text-align: center;
-    }
-    .leftANDright{
+    .menu { display: none; }
+    .pDiv { width: 100%; text-align: center; }
+    .leftANDright {
         flex-direction: column;
         text-align: center;
         align-items: center;
