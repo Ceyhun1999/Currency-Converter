@@ -20,5 +20,5 @@ Default olaraq sahələr aşağıdakı formatda əvvəlcədən doldurulur:
 -Sağ sahə isə sol sahədə olan ədədlə alınmış valyuta vahidi üzrə ədədin hasili ilə doldurulur.
 
 Sahələrin yaxınlığında valyuta seçmək üçün düymə mövcuddur. 
-
+  
 https://ceyhun1999.github.io/Currency-Converter/
